@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            transition: all 1s ease-in-out;
+        }
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 900;
+            font-size: 122px;
+            color: white;
+            animation: colorChange 10s ease-in infinite;
+        }
+
+    @keyframes colorChange {
+        0% {
+        background-color: white;
+      }
+      14% {
+        background-color: #ffb3ba;
+      }
+      28% {
+        background-color: #ffdfba;
+      }
+      42% {
+        background-color: #ffffba;
+      }
+      56% {
+        background-color: #baffc9;
+      }
+      56% {
+        background-color: #baffc9;
+      }
+      70% {
+        background-color: #bae1ff;
+      }
+      100%{
+        background-color: white;
+      }
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Pratham
+    </div>
+    <script>
+        // setInterval(()=>{
+        //     document.querySelector(".parent").classList.toggle("green");
+        // },2000);
+    </script>
+</body>
+</html>
