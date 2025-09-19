@@ -11,16 +11,21 @@
             padding: 0px;
         }
         .parent{
-            width: 100vw;
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
             font-family: 'Times New Roman', Times, serif;
             font-weight: 900;
-            font-size: 122px;
+            font-size: 300px;
             color: white;
             animation: colorChange 10s ease-in infinite;
+        }
+
+        @media screen and (max-width: 480px) {
+            .parent{
+                font-size: 40px;
+            }
         }
 
     @keyframes colorChange {
